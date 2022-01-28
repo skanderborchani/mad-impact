@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: aliceblue;
+    position:static;
+}
+.Navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.Navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size:  medium; 
+}
+.Navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#FBD153;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.Navbar ul li:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+.Navbar button{
+    background-color:#FBD153;
+    color: black;
+    cursor: pointer;
+}
+.Partie1{
+    background-color: #DC81FA;
+    display: flex;
+    margin-top: 25px;
+
+}
+.Partie1 img{
+    width: 80%;
+}
+.text{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bv{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.bv button{
+    background-color:#FBD153;
+    border-radius: 25%;
+    font-size: 1rem;
+}
+.Partie2{
+    margin: 5% 7% 7% ;
+}
+.services{
+    display: flex;
+    margin-top: 4%;
+    height: 400px;
+}
+.titre{
+    text-align: center;
+    margin-top: 25px;
+}
+.centre{
+    margin-top: 100px;
+    flex-direction: row;
+}
+.servicesD{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 30%;
+}
+.serviceD{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.imgD{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.serviceG{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    height: 15%;
+}
+.partie3{
+    margin-top: 50px;
+    display: flex;
+}
+.propos{
+    color:#FBD153;
+    font-size: 30px;
+}
+.txt{
+    margin-top: 150px;
+}
+.txt h3{
+    font-size: xx-large;
+    font-style: italic;
+}
+.txt button{
+    font-size: 25px;
+    margin: 60px;
+    background-color: #FBD153;
+    cursor: pointer;
+}
+.Partie4{
+    margin-top: 25px;
+}
+.methode{
+    text-align: center;
+}
+.methode p {
+    color: #FBD153;
+    font-size: 30px;
+}
+.methode h3{
+    font-size: xx-large;
+    font-style: italic;
+}
+.Partie4 img {
+    width: 100%;
+}
+.partie5{
+    margin-top: 25px;
+}
+.reference{
+    text-align: center;
+    color:#FBD153;
+    font-size: 30px;
+}
+.mininavbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.mininavbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 120px;
+    position: relative;
+}
+.mininavbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size:  medium; 
+}
+.mininavbar  ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#FBD153;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.mininavbar ul li:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+.ref{
+    display: flex;
+    border: solid 4px #DC81FA;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.intro h3 {
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+.intro p {
+    font-size: 25px;
+    margin-left: 20px;
+}
+.ref img {
+    width: 30%;
+    height: 50%;
+}
+.Partie6{
+    background-color:#DC81FA ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.Partie6 h4{
+    margin-top: 30px ;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+.Partie7 {
+    margin-top: 25px;
+}
+.Partie7 h4 {
+    text-align: center;
+    color:#FBD153;
+    font-size: 30px;
+}
+.Partie7 h2{
+    text-align: center;
+}
+.background{
+    background-image:url("https://img.search.brave.com/Meka6fd_jJRiG6wpU1Yz_zfFS6m7JNXDXuAs5bX2FDE/rs:fit:800:600:1/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9jYXJ0/ZS1ibGV1LWNsYWly/LWR1LW1vbmRlLTQx/NTkyMjAuanBn");
+}
+.avis {
+    border:  solid 2.5px #DC81FA;
+    width: 500px;
+    margin-left: 500px;
+    border-radius:100px;
+    resize: vertical;
+    text-align: center;
+
+}
+.Partie7 img {
+    border-radius: 50%;
+    width: 7%;
+    margin-left: 45%;
+}
+.Partie8{
+    margin-top: 25px;
+    background-color: #DC81FA;
+    display: flex;
+    justify-content: space-between;
+}
+.contact {
+    display: flex;
+}
