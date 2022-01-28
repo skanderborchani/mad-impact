@@ -5,11 +5,18 @@
 }
 
 .Navbar{
+    position:fixed;
+    top: 0;
+    left:0;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     align-content: center;
     background-color: aliceblue;
-    position:static;
+    
+}
+.Navbar img {
+    margin-right: 500px;
 }
 .Navbar ul li{
     list-style: none;
@@ -43,7 +50,7 @@
 .Partie1{
     background-color: #DC81FA;
     display: flex;
-    margin-top: 25px;
+    margin-top: 50px;
 
 }
 .Partie1 img{
